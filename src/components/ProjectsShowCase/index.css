@@ -1,0 +1,85 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  height: 10vh;
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  width: 100%;
+}
+
+.website-logo {
+  height: 50px;
+}
+
+.content-container {
+  height: 90vh;
+  width: 90%;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.projects-type-container {
+  height: 40px;
+  width: 35%;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  color: #475569;
+  font-size: 18px;
+}
+
+.projects-list-container {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.loader-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.failure-view-img {
+  height: 200px;
+  width: 200px;
+}
+
+.error-msg {
+  font-size: 30px;
+  color: #475569;
+}
+
+.explanation-msg {
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+.retry-button{
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #328af2;
+  border-radius: 5px;
+  border-width: 0px;
+}
